@@ -16,16 +16,20 @@ labels:
 <p>My cart will be a seperate page from the 3 different product pages. The user will be able to explore the product pages regardless of whether they are logged in and add it to a cart. If the user proceeds to login, then the items in their cart will be added to their previously saved cart. For example, if a user were to end a their shopping spree at 3 nixon watches and logout, and proceed to come back, not log in, and add 3 nixon watches then log in, the total will amount to 6. For new account members, the shopping cart will also transfer. </p>
 <p><br></p>
 <h2>Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session.</h2>
-<p></p>
+<p>The product keys and quantities for products will be stored in the session. I will use an object within an object for each product page in the cart. Within the product page or key, I will store an array that can be accessed through the other end.  
+  cart: {
+    Glasses: [ '1', '0', '1', '0', '0' ],
+    Suits: [ '1', '0', '0', '0', '0' ]
+  } This is an example of what it will look like.</p>
 <p><br></p>
 <h2>How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?</h2>
-<p></p>
+<p>I intend on using cookies in order to ensure that users are logged out after a certain time frame, such as 15 minutes. When a user gets to the site, the cookie stored on their browser will either match them with a session or the cookie will not match and the user will have to login or register.</p>
 <p><br></p>
 <h2>Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary).</h2>
-<p>Upon a successful login, the user will be able to see a message on the page saying "Welcome back, ...!" </p>
+<p>Upon a successful login, the user will be able to see a message on the page saying "Welcome back, ...!" As I did in assignment 2, I will access the user_data.json file and display whatever they have input as their name onto the page. This will carry on throughout all of the pages and will only show if they are not logged in. I intend on using a logged in boolean in conditional statements to turn this on or off.</p>
 <p><br></p>
 <h2>If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?</h2>
-<p></p>
+<p>Unfortunately, I am doing this project alone.</p>
 <p><br></p>
 <h2>How are you approaching Assignment 3 differently than Assignment 2?</h2>
-<p></p>
+<p>During this assignment, I really need to think things through before taking a shot at the coding process. There are a lot of different elements such as the log in, different product pages, and the cart, that seem to have many complexities to them. If I can thoroughly think them through in terms of what syntax to use and how everything can be organized, I feel as if it would benefit me much. Assignment 2 was kind of a hit or miss process for me. Hopefully this can change in Assignment 3.</p>
