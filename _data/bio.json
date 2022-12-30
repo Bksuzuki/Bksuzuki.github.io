@@ -1,0 +1,33 @@
+{
+  "basics": {
+    "name": "Branson Suzuki",
+    "label": "Student",
+    "picture": "https://github.com/Bksuzuki.png",
+    "email": "bksuzuki@hawaii.edu",
+    "phone": "808-351-1462",
+    "website": "https://Bksuzuki.github.io",
+    "summary": "I am studying for a B.S. in Management Information Systems and Business Management. I expect to graduate in Fall 2023.",
+    "location": { "address": "", "postalCode": "96701", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "Bksuzuki", "url": "http://github.com/Bksuzuki" }
+    ]
+  },
+  "interests": [
+    { "name": "Soccer" },
+    { "name": "Surfing" },
+    { "name": "Data Analytics" },
+    { "name": "Software Development" },
+    { "name": "Cyber Security" }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "BBA, Management Information Systems & Business Management (expected Fall, 2023)",
+      "studyType": "B.S.",
+      "startDate": "2020",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ]
+}
